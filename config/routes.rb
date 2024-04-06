@@ -7,4 +7,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  #  GET /
+  root to: "main#index" 
+
+  # GET /about
+  get "/about", to: "about#index"
+
 end

@@ -12,6 +12,12 @@ GET for "/about"
 I see you requested "/about", we will give that to the AboutController to handle
 
 ## Models
+Database wrapper 
+
+User
+* query for records
+* wrap individual records
+
 
 ## Views
 Your response body content
